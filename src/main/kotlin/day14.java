@@ -19,7 +19,7 @@ class Difference {
     }
 }
 
-public class Solution2 {
+class Solution2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
