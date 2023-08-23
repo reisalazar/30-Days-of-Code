@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+class Solution6 {
     // Write your code here.
     Stack<Character> stack = new Stack<>();
 
@@ -22,6 +22,7 @@ public class Solution {
     public char dequeueCharacter() {
         return queue.remove();
     }
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
@@ -31,7 +32,7 @@ public class Solution {
         char[] s = input.toCharArray();
 
         // Create a Solution object:
-        Solution p = new Solution();
+        Solution6 p = new Solution6();
 
         // Enqueue/Push all chars to their respective data structures:
         for (char c : s) {
